@@ -1,0 +1,35 @@
+.list {
+  margin-bottom: 40px;
+  border-bottom: 5px solid rgb(36, 36, 36);
+  display: flex;
+  flex-direction: column;
+}
+.column {
+  display: flex;
+  justify-content: space-between;
+}
+.alignRight {
+  text-align: right;
+  margin-top: 20px;
+}
+.number {
+  background-color: black;
+  padding: 4px;
+  color: white;
+  border-radius: 4px;
+}
+.imagesRow {
+  display: flex;
+  width: 100%;
+  gap: 10px;
+  background-color: black;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.imagesRow img {
+  width: 100%;
+  object-fit: cover;
+  border: 2px solid rgb(255, 180, 131);
+  max-height: 200px;
+  max-width: 300px;
+}
