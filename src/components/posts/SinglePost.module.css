@@ -1,0 +1,12 @@
+.tags {
+  display: flex;
+  gap: 10px;
+}
+.tag {
+  background-color: rgba(0, 0, 0, 0.742);
+  color: white;
+  font-size: 12px;
+  padding: 6px 10px;
+  border-radius: 2px;
+  text-transform: uppercase;
+}

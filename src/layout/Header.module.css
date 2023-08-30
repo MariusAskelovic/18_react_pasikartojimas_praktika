@@ -1,0 +1,33 @@
+.header {
+  background-color: rgb(254, 241, 219);
+  width: 100%;
+  padding: 12px;
+}
+.header div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-left: 2px solid rgb(227, 227, 227);
+  border-right: 2px solid rgb(227, 227, 227);
+}
+.navLinks {
+  display: flex;
+  gap: 10px;
+}
+.navLinks a {
+  font-weight: 500;
+  font-size: 12px;
+  text-transform: uppercase;
+  padding: 4px 10px;
+  background-color: #fff;
+  border-radius: 6px;
+  border: none;
+  box-shadow: 0 0 4px black;
+  transition: all 0.4s ease-in-out;
+}
+.navLinks a:hover {
+  box-shadow: 1px 1px 2px red, 1px -1px 2px red, -1px 1px 2px red,
+    -1px -1px 2px red;
+  background-color: tomato;
+  color: white;
+}
